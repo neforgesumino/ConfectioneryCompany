@@ -1,3 +1,17 @@
 body {
     font-family: 'Titillium Web', sans-serif;    
 }
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link { color: lavender;}
+.nav-link:hover { color: lightslategray;}
+
+.logo-brand {
+    min-width: 160px;
+    max-width: 160px;
+}
