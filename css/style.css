@@ -38,6 +38,7 @@ p {
 .content-center {
     max-width: 800px;
     margin: 0 auto 60px auto;
-    text-align: center;
-
+    text-align: right;
 }
+
+19.18
