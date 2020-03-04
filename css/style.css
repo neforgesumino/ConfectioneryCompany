@@ -2,14 +2,34 @@ body {
     font-family: 'Titillium Web', sans-serif;    
 }
 
-h1 { font-size: 66px; font-weight: 600; line-height: 80px; color: #999999;}
+h1 { font-size: 66px; font-weight: 600; line-height: 80px; color: white;}
 
 p {
     font-size: 18px;
-    color: #999999;
+    color: white;
     line-height: 1.8;
     margin-bottom: 0;
 }
+
+.topmargin-xs { margin-top: 15px;}
+.topmargin-sm { margin-top: 30px;}
+.topmargin-tp { margin-top: 60px;}
+
+.btn {
+    font-size: 14px;
+    padding: 15px 20px;
+    min-width: 150px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+.btn i { font-size: 10px; margin-left: 3px;}
 .navbar {
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
@@ -28,11 +48,15 @@ p {
 .navbar-toggler:focus { outline: none;}
 
 #hero {
-    background-image: url('media/hero1.jpg');
+    background-image: url('../media/hero3.jpg');
     background-size: cover;
     padding-top: 90px;
-    min-height: 300px;
-    color: rgb(255, 255, 255);  
+    min-height: 700px;
+    color: white;  
+}
+
+#hero p {
+    color: white;
 }
 
 .content-center {
@@ -40,3 +64,17 @@ p {
     margin: 0 auto 60px auto;
     text-align: center;
 }
+
+
+
+@media (max-width: 575.98px) { 
+    h1 { font-size: 40px; line-height: normal;}
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px {}
+
+@media (min-width: 1200px) {}
