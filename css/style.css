@@ -27,13 +27,12 @@ p {
 .navbar-toggler { font: 40px;}
 .navbar-toggler:focus { outline: none;}
 
-.hero {
-    background-image: url('media/hero.jpg');
+#hero {
+    background-image: url('media/hero1.jpg');
     background-size: cover;
     padding-top: 90px;
     min-height: 300px;
-    color: white;
-    
+    color: rgb(255, 255, 255);  
 }
 
 .content-center {
