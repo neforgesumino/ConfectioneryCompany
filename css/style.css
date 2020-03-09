@@ -2,13 +2,17 @@ body {
     font-family: 'Titillium Web', sans-serif;    
 }
 
-h1 { font-size: 66px; font-weight: 600; line-height: 80px; color: white;}
-
+h1 { font-size: 66px; font-weight: 600; line-height: 80px;}
+h2 { font-size: 48px; margin-bottom: 10px;}
 p {
     font-size: 18px;
-    color: white;
+    color: #999999;
     line-height: 1.8;
     margin-bottom: 0;
+}
+
+section {
+    padding: 120px 0;
 }
 
 .topmargin-xs { margin-top: 15px;}
