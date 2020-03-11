@@ -11,6 +11,9 @@ p {
     margin-bottom: 0;
 }
 
+a:hover {
+    text-decoration:  none;
+}
 section {
     padding: 120px 0;
 }
@@ -69,6 +72,39 @@ section {
     text-align: center;
 }
 
+.portfolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portfolio-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portfolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portfolio-details {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portfolio-details a h2, .portfolio-details a p {
+    color: white;
+}
+
+.portfolio-details h2 {
+    margin-bottom: 0px;
+}
 
 
 @media (max-width: 575.98px) { 
