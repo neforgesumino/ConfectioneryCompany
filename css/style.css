@@ -4,6 +4,7 @@ body {
 
 h1 { font-size: 66px; font-weight: 600; line-height: 80px;}
 h2 { font-size: 48px; margin-bottom: 10px;}
+
 p {
     font-size: 18px;
     color: #999999;
@@ -14,6 +15,7 @@ p {
 a:hover {
     text-decoration:  none;
 }
+
 section {
     padding: 120px 0;
 }
@@ -37,6 +39,9 @@ section {
 }
 
 .btn i { font-size: 10px; margin-left: 3px;}
+
+.text-dark { color: black; }
+
 .navbar {
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
