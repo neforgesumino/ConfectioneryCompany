@@ -113,6 +113,25 @@ section {
     margin-bottom: 0px;
 }
 
+.member-container {
+    position: relatibe;
+    margin: 10px 0;
+}
+
+.member-details {
+    position: absolute;
+    color: #ffffff;
+    bottom: 0px;
+    left: 20px;
+}
+
+.member-details span {
+    font-size: 14px;
+}
+
+.member-details i {
+    padding: 0 5px;
+}
 
 @media (max-width: 575.98px) { 
     h1 { font-size: 40px; line-height: normal;}
