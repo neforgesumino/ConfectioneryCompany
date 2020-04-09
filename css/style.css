@@ -16,6 +16,10 @@ a:hover {
     text-decoration:  none;
 }
 
+a i {
+    font-size: 22px; color: #ffffff; 
+}
+
 section {
     padding: 120px 0;
 }
