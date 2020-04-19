@@ -53,7 +53,7 @@ section {
 
 .btn i { font-size: 10px; margin-left: 3px;}
 
-.fullwidth {
+.full-width {
     width: 100%
 }
 .text-dark { color: black; }
@@ -166,6 +166,19 @@ section {
     background-color: black;
     border: 2px solid black;
     color: white;
+}
+
+.plans h2 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.plans span {
+    font-size: 20px;
+}
+
+.plans ul span {
+    list-style-type: square;
 }
 @media (max-width: 575.98px) { 
     h1 { font-size: 40px; line-height: normal;}
