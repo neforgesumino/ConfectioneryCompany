@@ -51,6 +51,15 @@ section {
     border: 2px solid black;
 }
 
+.btn-transparent {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #ffffff;
+}
+.btn-transparent:hover {
+    color: white;
+}
+
 .btn i { font-size: 10px; margin-left: 3px;}
 
 .full-width {
