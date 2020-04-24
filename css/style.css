@@ -189,6 +189,25 @@ section {
 .plans ul span {
     list-style-type: square;
 }
+
+.carousel {
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+}
+.carousel p {
+    font-size: 26px;
+    font-weight:  400;
+    color: black;
+}
+
+.rating ion-icon {
+    color: #ffb944;
+    font-size: 26px;
+}
+
+
 @media (max-width: 575.98px) { 
      h1 {font-size: 40px; line-height: normal;}
     .portfolio-details h2 {font-size: 32px;}
