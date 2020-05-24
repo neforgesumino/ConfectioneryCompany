@@ -67,6 +67,8 @@ section {
 }
 .text-dark { color: black; }
 
+.divider { border-bottom: 2px solid black }
+
 .navbar {
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
@@ -237,12 +239,29 @@ section {
     font-size: 26px;
 }
 
+.testimonial-user h6 {
+    margin-bottom: 0px;
+}
+
+.testimonial-user span {
+    font-size: 12px;
+}
+
+.testimonial-user img {
+    border-radius: 50%;
+    max-width: 50px;
+    justify-content: center;
+}
+
 
 @media (max-width: 575.98px) { 
      h1 {font-size: 40px; line-height: normal;}
     .portfolio-details h2 {font-size: 32px;}
     .plans {min-width: unset; padding: 40px;}
  }
+  .carousel-item p {
+      font-size: 20px;
+  }
 
 @media (min-width: 576px) and (max-width: 767.98px) {}
 
