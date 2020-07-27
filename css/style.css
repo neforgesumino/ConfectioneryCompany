@@ -2,7 +2,7 @@ body {
     font-family: 'Titillium Web', sans-serif;    
 }
 
-h1 { font-size: 66px; font-weight: 600; line-height: 75px;}
+h1 { font-size: 66px; font-weight: 600; line-height: 75px; margin-top: 15px;}
 h2 { font-size: 48px; margin-bottom: 10px;}
 h5 { margin-bottom: 0px;}
 
@@ -223,8 +223,6 @@ section {
     margin: 0 auto;
 }
 
-
-
 .rating ion-icon {
     color: #ffb944;
     font-size: 26px;
@@ -263,3 +261,12 @@ section {
 @media (min-width: 992px) and (max-width: 1199.98px {}
 
 @media (min-width: 1200px) {}
+
+
+<ul class="list-inline">
+<li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+<li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+<li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+<li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+<li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+</ul>
