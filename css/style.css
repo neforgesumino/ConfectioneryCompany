@@ -31,6 +31,8 @@ section {
 .topmargin-sm { margin-top: 30px;}
 .topmargin-tp { margin-top: 60px;}
 
+ 
+/* Buttons */
 .btn {
     font-size: 14px;
     padding: 15px 20px;
@@ -104,6 +106,7 @@ section {
     text-align: center;
 }
 
+/* Portfolio */
 .portfolio-container {
     position: relative;
     overflow: hidden;
@@ -138,6 +141,8 @@ section {
     margin-bottom: 0px;
 }
 
+/* Members*/ 
+
 .member-container {
     position: relatibe;
     margin: 10px 0;
@@ -157,6 +162,8 @@ section {
 .member-details i {
     padding: 0 5px;
 }
+
+/* Prices */
 
 .pricing-container {
     margin: 15px 0;
@@ -192,42 +199,57 @@ section {
     list-style-type: square;
 }
 
+/* Testimonials */
+/* Carousel */ 
 .carousel {
     min-height: 240px;
     padding: 40px;
     border-radius: 2px;
     text-align: center;
 }
-.carousel p {
+
+.carousel-item p {
     font-size: 26px;
-    font-weight:  400;
-    color: black;
+    font-weight: 400;
+    color: #1a1a1a;
 }
 
 .carousel-indicators li {
-    background-color: white;
+    background-color: #1a1a1a;
     width: 15px;
     height: 15px;
     border-radius: 2px;
     margin: 0 8px;
 }
 
-.carousel-control-next .carousel-control-prev {
-    color:black;
-    opacity: 1;
-    width: 5%;
-}
+/* Carousel Control Buttons */ 
 
 .carousel-container {
     max-width: 800px;
     margin: 0 auto;
 }
 
+.control-button {
+    background-color: #1a1a1a;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #1a1a1a;
+    border-radius: 50px;
+    font-size: 20px;
+}
 
+.carousel-control-next, .carousel-control-prev { 
+    color: #ffffff;
+    opacity: 1;
+    width: 5%;
+}
 
-.rating ion-icon {
-    color: #ffb944;
-    font-size: 26px;
+.testimonial-user {
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .testimonial-user h6 {
@@ -241,16 +263,21 @@ section {
 .testimonial-user img {
     border-radius: 50%;
     max-width: 50px;
-    justify-content: center;
+    text-align: center;
 }
+
+.rating ion-icon {
+    color: #ffb944;
+    font-size: 25px;
+}
+
 
 
 @media (max-width: 575.98px) { 
      h1 {font-size: 40px; line-height: normal;}
     .portfolio-details h2 {font-size: 32px;}
     .plans {min-width: unset; padding: 40px;}
- }
-  .carousel-item p {
+    .carousel-item p {
       font-size: 20px;
   }
 
