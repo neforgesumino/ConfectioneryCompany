@@ -89,7 +89,7 @@ section {
 .navbar-toggler:focus { outline: none;}
 
 #hero {
-    background-image: url('../media/hero3.jpg');
+    background-image: url('../media/hero.jpg');
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
@@ -141,25 +141,25 @@ section {
     margin-bottom: 0px;
 }
 
-/* Members*/ 
+/* Staff */ 
 
-.member-container {
-    position: relatibe;
+.staff-container {
+    position: relative;
     margin: 10px 0;
 }
 
-.member-details {
-    position: absolute;
+.staff-details {
+    position: relative;
     color:black;
     bottom: 0px;
     left: 20px;
 }
 
-.member-details span {
+.staff-details span {
     font-size: 14px;
 }
 
-.member-details i {
+.staff-details i {
     padding: 0 5px;
 }
 
