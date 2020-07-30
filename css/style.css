@@ -89,15 +89,16 @@ section {
 .navbar-toggler:focus { outline: none;}
 
 #hero {
-    background-image: url('../media/hero.jpg');
+    background-image: url('../media/hero-2.jpg');
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
-    color: white;  
+    color: #4658636b;  
 }
+#6C8DD5
 
 #hero p {
-    color: white;
+    color: #4658636b;
 }
 
 .content-center {
@@ -149,10 +150,11 @@ section {
 }
 
 .staff-details {
-    position: relative;
+    position: absolute;
     color:black;
     bottom: 0px;
     left: 20px;
+
 }
 
 .staff-details span {
@@ -162,6 +164,7 @@ section {
 .staff-details i {
     padding: 0 5px;
 }
+
 
 /* Prices */
 
