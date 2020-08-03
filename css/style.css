@@ -18,7 +18,7 @@ body {
 
 .colorDark { color: #1a1a1a !important; }
 
-h1 { font-size: 66px; font-weight: 700; line-height: 80px; }
+h1 { font-size: 66px; font-weight: 700; line-height: 80px;}
 h2 { font-size: 48px; margin-bottom: 30px; }
 h3 { font-size: 33px; }
 h5 { margin-bottom: 0px; }
@@ -136,11 +136,11 @@ section { padding: 120px 0; }
 //////////////*/
 
 #hero {
-    background-image: url(../media/hero-1.jpg);
+    background-image: url(../media/hero-2.jpg);
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
-    color: #ffffff;
+    color: #d59761e5;
 }
 
 #hero p {
