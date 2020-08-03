@@ -370,3 +370,64 @@ footer .list-inline .list-inline-item {
 @media (min-width: 992px) and (max-width: 1199.98px) { }
 
 @media (min-width: 1200px) { }
+
+<div class="row">
+          <div class="col-md-4">
+            <div class="staff-container">
+              <figure class="staff-details">
+                <img src="media/staff-1.jpg" class="img-fluid" alt="staff 1">
+                <figcaption>
+                 <h5> Елизавета Кромская </h5>  
+                 <span><i>Печёт лучшие бисквиты</i></span>
+                  <ul class="list-inline"> 
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-instagram"></ion-icon></a> </li>
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-twitter"></ion-icon></a> </li>
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-youtube"></ion-icon></a> </li>
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-dribbble"></ion-icon></a> </li>
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-facebook"></ion-icon></a> </li>
+                  </ul>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="staff-container">
+              <figure class="staff-details">
+                <img src="media/staff-2.jpg" class="img-fluid" alt="staff 1">
+                <figcaption>
+                 <h5> Вероника Попова</h5>  
+                 <span><i>Лучший кремовый флорист</i></span>
+                 <ul class="list-inline"> 
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-instagram"></ion-icon></a> </li>
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-twitter"></ion-icon></a> </li>
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-youtube"></ion-icon></a> </li>
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-dribbble"></ion-icon></a> </li>
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-facebook"></ion-icon></a> </li>
+                 </ul>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="staff-container">
+              <figure class="staff-details">
+                <img src="media/staff-3.jpg" class="img-fluid" alt="staff 1">
+                <figcaption>
+                  <h5>Алиса Ланская</h5>  
+                  <span><i>Самый вежливый консультант</i></span>
+                  <ul class="list-inline"> 
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-instagram"></ion-icon></a> </li>
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-twitter"></ion-icon></a> </li>
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-youtube"></ion-icon></a> </li>
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-dribbble"></ion-icon></a> </li>
+                   <li class="list-inline-item"><a href=#><ion-icon name="logo-facebook"></ion-icon></a> </li>
+                  </ul>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+      </div>
